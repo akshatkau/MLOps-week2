@@ -18,8 +18,8 @@ import joblib
 import os
 
 # --- Artifact paths ---
-MODEL_ARTIFACT_DIR = "models/iris-classifier-week-2"
-MODEL_DISPLAY_NAME = "iris-dt-classifier"
+MODEL_ARTIFACT_DIR = "models/iris-data-week-2"
+MODEL_DISPLAY_NAME = "iris-dt"
 
 # --- Load dataset ---
 iris_df = pd.read_csv("data/iris.csv")

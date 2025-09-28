@@ -7,7 +7,7 @@ BUCKET_NAME="21f3000376-week2"
 REGION="us-central1"
 gsutil mb -l "$REGION" -p "gen-lang-client-0761066410" "gs://$BUCKET_NAME" || echo "Bucket already exists."
 
-echo "✅ Using bucket: gs://$BUCKET_NAME"
+echo "Using bucket: gs://$BUCKET_NAME"
 
 mkdir -p artifacts
 
